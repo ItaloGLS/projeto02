@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(241, 23, 23);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+    
+.yes-or-no {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
+.yes-or-no .yes {
+    font-weight: bold;
+    width: 150px;
+    margin-right: 5px;
+    background: rgb(132, 207, 132);
+    color: white;
+    font-size: 1rem;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+    
+.yes-or-no .no {
+    margin-left: 5px;
+    width: 150px;
+    font-weight: bold;
+    background: rgb(216, 106, 106);
+    color: white;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 1px solid black;
+    padding: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+    
+h1 {
+    color: #fff;
+    text-align: center;
+}
